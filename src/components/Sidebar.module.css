@@ -12,7 +12,7 @@
 }
 
 .avatar {
-    box-sizing: initial;
+
     width: calc(3rem + 12px);
     height: calc(3rem + 12px);
     border-radius: 8px; 
@@ -49,7 +49,7 @@
 .sidebar footer a {
     width: 100%;
     background: transparent;
-    color: var(--gray-500);
+    color: var(--green-500);
     border: 1px solid var(--green-500);
     border-radius: 8px;
     height: 50px;
