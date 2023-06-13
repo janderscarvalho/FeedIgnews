@@ -20,8 +20,8 @@ export function Sidebar () {
 
             <footer className={styles.sidebar}>
                 <a href='#'>
-                    <PencilLine size={20} />
-                    Editar seu Perfil
+                    <PencilLine />
+                    Editar seu Perfi
                 </a>
             </footer>
         </aside>

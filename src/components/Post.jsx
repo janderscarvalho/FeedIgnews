@@ -1,4 +1,6 @@
 import styles from './Post.module.css';
+import { Comment } from './Comment';
+
 
 export function Post(props) {
     return (
@@ -37,6 +39,7 @@ export function Post(props) {
                     <button type='submit'>Publicar</button>
                 </footer>
             </form>
+            <
 
         </article>         
     );
