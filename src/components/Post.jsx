@@ -26,10 +26,10 @@ export function Post(props) {
                     <a href=''>#nlw </a>{' '}
                     <a href=''>#rocketseat</a>
                 </p>
-                
             </div>
 
-            <form className={styles.commentsForm}>
+
+            <form className={styles.commentForm}>
                 <strong>Deixe seu feedback</strong>
                 <textarea
                 placeholder='Comente aqui...'
@@ -39,7 +39,10 @@ export function Post(props) {
                     <button type='submit'>Publicar</button>
                 </footer>
             </form>
-            <
+            
+            <div className={styles.commentList}>
+                <Comment />
+            </div>
 
         </article>         
     );
